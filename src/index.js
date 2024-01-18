@@ -3,5 +3,8 @@
 const MESSAGE = window.prompt("Hello can you add your Username here !")
 
 console.log(MESSAGE) ;
+let message ;
 
-window.alert("Thank you! " + MESSAGE) ;
+message = window.alert("Thank you! " + MESSAGE) ;
+
+document.getElementById("username").innerHTML = "Thank you for visiting my website " + message ; 
