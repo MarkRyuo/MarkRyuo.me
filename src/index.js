@@ -7,4 +7,4 @@ let message ;
 
 message = window.alert("Thank you! " + MESSAGE) ;
 
-let mes = document.getElementById("username-text").innerHTML = MESSAGE ; 
+let username = document.getElementById("username-text").innerHTML = MESSAGE ; 
