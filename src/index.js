@@ -5,6 +5,6 @@ let MESSAGE = window.prompt("Hello can you add your Username here !")
 console.log(MESSAGE) ;
 let message ;
 
-message = window.alert("Thank you! " + MESSAGE) ;
+// message = window.alert("Thank you! " + MESSAGE) ;
 
 let username = document.getElementById("username-text").innerHTML = MESSAGE ; 
